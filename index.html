@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>São Miguel DPVAT/SPVAT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>São Miguel DPVAT/SPVAT</h1>
+      <nav>
+        <ul>
+          <li><a href="#dpvat" class="btn"></a></li>
+          <li><a href="#spvat" class="btn"></a></li>
+          <li><a href="#beneficios" class="btn"></a></li>
+          <li><a href="#contato" class="btn"></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Seções Principais em Cartões -->
+  <main class="main-content">
+    <!-- DPVAT -->
+    <section id="dpvat" class="card fade-in">
+      <h2>Seguro DPVAT</h2>
+      <p>Proteção para motoristas, passageiros e pedestres.</p>
+      <button class="btn-learn-more" onclick="mostrarInfo('dpvat-info')">Saiba Mais</button>
+      <div id="dpvat-info" class="info hidden">
+        <p>O DPVAT oferece indenizações para casos de morte, invalidez permanente e despesas médicas em acidentes de trânsito.</p>
+      </div>
+    </section>
+
+    <!-- SPVAT -->
+    <section id="spvat" class="card fade-in">
+      <h2>Seguro SPVAT</h2>
+      <p>Suporte financeiro para sinistros e proteção de motoristas.</p>
+      <button class="btn-learn-more" onclick="mostrarInfo('spvat-info')">Saiba Mais</button>
+      <div id="spvat-info" class="info hidden">
+        <p>SPVAT inclui proteção contra colisões, danos a terceiros e apoio médico emergencial.</p>
+      </div>
+    </section>
+
+    <!-- Benefícios para Agricultores -->
+    <section id="beneficios" class="card fade-in">
+      <h2>Benefícios para Agricultores</h2>
+      <p>Auxílio completo em momentos de necessidade.</p>
+      <button class="btn-learn-more" onclick="mostrarInfo('beneficios-info')">Saiba Mais</button>
+      <div id="beneficios-info" class="info hidden">
+        <p>Benefícios incluem auxílio natalidade, incapacidade temporária e assistência médica.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Seção de Contato com Mapa -->
+  <section id="contato" class="contact fade-in">
+    <h2>Entre em Contato</h2>
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.4472271520047!2d-38.497000000000004!3d-6.207300799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a4ae3271b34dc5%3A0x614f9a0d637f1200!2sR.%20Jos%C3%A9%20Augusto%20Pessoa%2C%20S%C3%A3o%20Miguel%20-%20RN%2C%2059920-000!5e0!3m2!1spt-BR!2sbr!4v1698232673189!5m2!1spt-BR!2sbr&t=k" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="contact-info">
+      <p><strong>Telefone:</strong> <a href="tel:+558496145405">+55 84 9614-5405</a></p>
+      <p><strong>Endereço:</strong> R. José Augusto Pessoa, São Miguel - RN</p>
+      <a href="https://wa.me/558496145405" class="whatsapp-link btn" target="_blank">Fale no WhatsApp</a>
+
+   <!-- Redes Sociais -->
+    <div class="social-media">
+        <a href="https://instagram.com" target="_blank" class="social-icon">
+            <img src="imagen/174855.png" alt="Instagram">
+        </a>
+        <a href="https://twitter.com" target="_blank" class="social-icon">
+            <img src="imagen/social.png" alt="X (Twitter)">
+        </a>
+        <a href="https://facebook.com" target="_blank" class="social-icon">
+            <img src="imagen/facebook.png" alt="Facebook">
+        </a>
+    </div>
+
+  <!-- Botão Fixo do WhatsApp -->
+  <a href="https://wa.me/558496145405" class="whatsapp-fixed" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

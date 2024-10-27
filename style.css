@@ -1,0 +1,116 @@
+/* Reset e estilo base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  header {
+    background-color: #000;
+    color: #FFD700;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+  }
+
+  .btn:hover {
+    background-color: #FFD700;
+    color: #000;
+  }
+  
+  /* Cartões das Seções */
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+  }
+  .card h2 {
+    color: #FFD700;
+  }
+  .btn-learn-more {
+    color: #fff;
+    background-color: #FFD700;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+  }
+  .btn-learn-more:hover {
+    background-color: #333;
+  }
+  
+  /* Seção de Contato */
+  .contact {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #333;
+    color: #FFD700;
+  }
+  .map-container iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+  }
+  
+  /* Botão Fixo do WhatsApp */
+  .whatsapp-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25d366;
+    padding: 0.5rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 50px;
+    height: 50px;
+  }
+  /* Estilo para esconder a informação adicional inicialmente */
+.info {
+    display: none;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Estilo para exibir a informação ao clicar */
+  .info.visible {
+    display: block;
+  }
+  /* Estilo para redes sociais */
+.social-media {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icon img:hover {
+    transform: scale(1.1);
+  }
+  
