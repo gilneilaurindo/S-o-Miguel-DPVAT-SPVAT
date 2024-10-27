@@ -60,19 +60,48 @@
     background-color: #333;
   }
   
-  /* Seção de Contato */
   .contact {
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para a seção */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para destacar a seção */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin: 20px;
+}
+
+.contact h2 {
     text-align: center;
-    padding: 2rem 1rem;
-    background-color: #333;
-    color: #FFD700;
-  }
-  .map-container iframe {
-    width: 100%;
-    max-width: 600px;
-    height: 300px;
-  }
-  
+    color: #333; /* Cor do título */
+}
+
+.map-container {
+    margin: 20px 0;
+    border-radius: 8px; /* Bordas arredondadas para o mapa */
+    overflow: hidden; /* Para evitar que o conteúdo saia dos limites */
+}
+
+.contact-info {
+    text-align: center; /* Centraliza o texto */
+}
+
+.contact-info p {
+    margin: 10px 0; /* Margem entre os parágrafos */
+    color: #555; /* Cor do texto */
+}
+
+.whatsapp-link {
+    display: inline-block;
+    background-color: #25d366; /* Cor do botão do WhatsApp */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px; /* Bordas arredondadas do botão */
+    text-decoration: none; /* Remove o sublinhado do link */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.whatsapp-link:hover {
+    background-color: #1ebc54; /* Cor ao passar o mouse */
+}
+
   /* Botão Fixo do WhatsApp */
   .whatsapp-fixed {
     position: fixed;
