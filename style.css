@@ -127,11 +127,26 @@
     display: block;
   }
   /* Estilo para redes sociais */
-.social-media {
-    margin-top: 20px;
-    display: flex;
-    gap: 15px;
-  }
+  .social-media {
+    display: flex; /* Usa flexbox para alinhamento */
+    justify-content: center; /* Centraliza os ícones */
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+.social-icon {
+    margin: 0 10px; /* Espaçamento entre os ícones */
+    transition: transform 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.social-icon img {
+    width: 40px; /* Define a largura do ícone */
+    height: 40px; /* Define a altura do ícone */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
+}
+
   
   .social-icon img {
     width: 30px;
